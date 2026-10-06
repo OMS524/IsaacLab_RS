@@ -1,0 +1,340 @@
+{
+  "report_date": "2026-10-06",
+  "evaluation_root": "logs/ant_eval_grid_rough_video_20261006_045015",
+  "models": {
+    "M1": {
+      "checkpoint": "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/model_999.pt",
+      "checkpoint_sha256": "d3f8502703a3afac7f45cf61a124b58ab057c98206eb9bebb7a9c77d060a40a5",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/params/env.yaml": "b8e4bb05a843206e297f1b9a6ef03f95005e0c7566985bb9159f52142d4be28c",
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/params/agent.yaml": "c16a8a8b91e8dd6f7f3282c46231d07a77950b9138d8632ecce6cc237c697939",
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/events.out.tfevents.1789618900.oms.54833.0": "c321ae0f2e76c7f1e7db6ef569779db04be156b0ea04ad006ccc57da403283ac"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "d875f3831cfcda8a80ab3eaf0f6f30f1ae04a4804061b0c54ce5c92d6a9faaeb",
+          "video_sha256": "5458677936445bb3f2edb65a2b9cb134316f15e5a5a62a44c4db9b1fd524c679",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "rough": {
+          "log_sha256": "88362675f0838565abf1a5826df814e3eceea75110a848f81ab3824d331c2657",
+          "video_sha256": "8d67c52a74a6b6cb256f0887f0fff6821e179645f797826f104738d22c5b7d75",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    },
+    "M2": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-06_02-01-31_scratch_rough_blocks_original/model_999.pt",
+      "checkpoint_sha256": "69dcb40556665fd3df290410be492b66f9fc97f82d6eb7942fbbe83df4faaadc",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-10-06_02-01-31_scratch_rough_blocks_original/params/env.yaml": "16354f78c8ecf637c79d139b2ae46a67a3d8a4af2fa4cc63ecceed324c002d80",
+        "logs/rsl_rl/ant/2026-10-06_02-01-31_scratch_rough_blocks_original/params/agent.yaml": "953e2dd5f079246b9e9cce80ce4853100d6b55f33f471c98fa35d17f183c26b6",
+        "logs/rsl_rl/ant/2026-10-06_02-01-31_scratch_rough_blocks_original/events.out.tfevents.1791219704.oms.1262604.0": "5aeff4337914ed2914b80045f1430eee1bf3c301868ef3ac82fe546053e808a9"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "aa179976828a15050295e00d78c5508e4787f7d2c0534d50efdb81926455fca7",
+          "video_sha256": "3cdda8c765b3fc6ed889327129bd8fe1fa7a9ba1057f832757e25669c2eeb696",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "rough": {
+          "log_sha256": "ca0e750c7e3be212fb4f2baf05389aa85ac6c59d42b1cfcfc31ec1b3ddefe493",
+          "video_sha256": "72cb7995c13c8cd2ea3e4559fb05bfcde280186ccd3f4ef4911d614efcd76942",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    },
+    "M3": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-06_02-21-55_scratch_rough_blocks_light/model_999.pt",
+      "checkpoint_sha256": "62c71268d47ad182102866820280db68ae15834bd76ce7c3e1e5ddcce0c1f103",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-10-06_02-21-55_scratch_rough_blocks_light/params/env.yaml": "b038f402d222660958708198deec93bfbe4e5a684bfcc93b4def31333f8598d2",
+        "logs/rsl_rl/ant/2026-10-06_02-21-55_scratch_rough_blocks_light/params/agent.yaml": "bca585571c19085aba8dee2549c6fe5e1001c55007b9c347dbb0382d60525c71",
+        "logs/rsl_rl/ant/2026-10-06_02-21-55_scratch_rough_blocks_light/events.out.tfevents.1791220927.oms.1275162.0": "d9372527b7d552c63d30da392b8ccc35ade5d2d2fbf3f55d25419739b838122b"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "8af0b046eda41f840824a6fafd928b64c8e01e43eb1bb605b83154f6b9b7e8ac",
+          "video_sha256": "ee8d38863bdde6a1a8ebed7dbd9f5ee940f8d3fa048b446e45bc1aa8c424395e",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "rough": {
+          "log_sha256": "defde5b1983d7b11d3b167f186647fcfe86765c4da4b1e6ad3635b8eb66bd9b7",
+          "video_sha256": "583ccbad038d9f5f5460e30fcadb6dc921e381b523e0dec86cf045b37a9fd417",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    },
+    "M4": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/model_1998.pt",
+      "checkpoint_sha256": "b66d3dcae0eecf9c87926db01c4bbaed77c5c93290bc67c4f78f0ddfb8cc6619",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/params/env.yaml": "cfb2f07a40535014c3178613a10668d09da84656859bf07b113622702f0e20cc",
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/params/agent.yaml": "0d29f1afb34267b34d304d56ab95333c4aa38b640eab487c57f982d6bd0472b7",
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/events.out.tfevents.1791204491.oms.1168843.0": "fd7ac0834acdaf58da52a2dd63551fc2c90ce8865c498f81c3c1f69a38a3be69"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "050b8e53dd28a50834cfaf1c7a87ed2d9b034cd3aabf8a5d880fb1a8601c9f8d",
+          "video_sha256": "4f34d1659be00343928e7e421679e67483ee2ab952bb43a76c150ab816dfc3e3",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "rough": {
+          "log_sha256": "548cc6ccad7d9737bf43bf60f721a9d91edb7ce38db26d3d878c9b1b1b3cec13",
+          "video_sha256": "d4ab2409c5d3aac7e8c69a748aa9893e2c4fa37d14666f335775cdf71e955bc2",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    },
+    "M5": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-05_23-50-19_baseline_ft_rough_blocks_light/model_1998.pt",
+      "checkpoint_sha256": "276d8b2ac70076269e44672dbc04dfc5df9ced2689c9f50b4e4f1ef7a8772e66",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-10-05_23-50-19_baseline_ft_rough_blocks_light/params/env.yaml": "af7b505d859fbce56bfeafc5854dcc94e22f0c39ecbf43b40c30b97d28a81ea0",
+        "logs/rsl_rl/ant/2026-10-05_23-50-19_baseline_ft_rough_blocks_light/params/agent.yaml": "76c71a2feae1d2094a23df4ab9f1ebf7ffa11284a176604bfa403c091a4bfae0",
+        "logs/rsl_rl/ant/2026-10-05_23-50-19_baseline_ft_rough_blocks_light/events.out.tfevents.1791211832.oms.1216862.0": "c5af9c2d1cccffdaf357213b054f6a83292a6e446b8c8c9f8724208ef60d6674"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "3068dc221c307ada6da60e1a12dd02606c971d76824130016918c40de2f38571",
+          "video_sha256": "5bf3ebea7dd03c7c0a2770ce5a78330de05de729a164892d42644c9a89500c8c",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "rough": {
+          "log_sha256": "761f775dfef08e28610098cc2d96b1f78117af0e4f5fd81055fb222ec8feef6e",
+          "video_sha256": "a8226326ad518e6195c0ae1088016a4fc8e5af9f96a82e00fac3f73cf3b8e3e9",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    }
+  },
+  "source_files": {
+    "scripts/reinforcement_learning/rsl_rl/play_one_episode.py": "70dd6d6674ca211f335b57fea5d8dca417fe670753adedf2d002a638b2b089d0",
+    "scripts/reinforcement_learning/rsl_rl/train.py": "ba41d6afca3b6470b4bee05cb4a24f036046845c50f26970c9a944653e3f8d0a",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/ant_env_cfg.py": "586a48b8178d3493564bf32948b60645677ec0c93ece515445919bcb9ea5e7f4",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/terrain.py": "9a401defba378e162aa8aac79d7146e4e78146050a63deaf0823c255081f2345",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/mdp.py": "0cc2041d4e27d3627700452a252dea1d485d14be8a26fa52cba76ee37fea4a5d",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/__init__.py": "080bb11a5ea74dcc0f5d0c37b68d870363ce549c190829a4ad2af704b5c54310",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/agents_cfg.py": "44c75e3cfb00e0450fad368c99c0f57807367e3e89b12d94056ae399f80a33da",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/finetune_env_cfg.py": "4737635d7d30ab5ed1f22de51124514bf07d4fd9787c0cfc2a2a59deaea40c0f",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/block_eval_env_cfg.py": "04a37b97ffe3336bdd4f8a5ed4318c02a72f34389fc16a31aea6c194424c24e0",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/baseline_finetune_env_cfg.py": "ed620b72216261f5684a0bea6090a7d11682b78a20d3fe5dd90819f1f6e9abdb"
+  },
+  "hydra_overrides": {
+    "outputs/2026-10-06/04-50-33/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/04-52-10/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2405",
+      "env.scene.terrain.terrain_generator.sub_terrains.flat.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.inverted_slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.proportion=1.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_range=[-0.025,0.025]",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_step=0.005",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.downsampled_scale=0.3"
+    ],
+    "outputs/2026-10-06/04-53-51/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/04-55-27/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2405",
+      "env.scene.terrain.terrain_generator.sub_terrains.flat.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.inverted_slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.proportion=1.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_range=[-0.025,0.025]",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_step=0.005",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.downsampled_scale=0.3"
+    ],
+    "outputs/2026-10-06/04-57-03/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/04-58-37/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2405",
+      "env.scene.terrain.terrain_generator.sub_terrains.flat.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.inverted_slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.proportion=1.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_range=[-0.025,0.025]",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_step=0.005",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.downsampled_scale=0.3"
+    ],
+    "outputs/2026-10-06/05-00-13/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/05-01-46/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2405",
+      "env.scene.terrain.terrain_generator.sub_terrains.flat.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.inverted_slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.proportion=1.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_range=[-0.025,0.025]",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_step=0.005",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.downsampled_scale=0.3"
+    ],
+    "outputs/2026-10-06/05-03-22/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/05-04-57/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2405",
+      "env.scene.terrain.terrain_generator.sub_terrains.flat.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.inverted_slope.proportion=0.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.proportion=1.0",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_range=[-0.025,0.025]",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.noise_step=0.005",
+      "env.scene.terrain.terrain_generator.sub_terrains.rough.downsampled_scale=0.3"
+    ]
+  }
+}

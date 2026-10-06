@@ -1,0 +1,119 @@
+{
+  "report_date": "2026-10-05",
+  "experiment": "grid06-flat10-rough30-grid40-slope20",
+  "runs": {
+    "baseline": {
+      "checkpoint": "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/model_999.pt",
+      "files": {
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/model_999.pt": "d3f8502703a3afac7f45cf61a124b58ab057c98206eb9bebb7a9c77d060a40a5",
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/params/env.yaml": "b8e4bb05a843206e297f1b9a6ef03f95005e0c7566985bb9159f52142d4be28c",
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/params/agent.yaml": "c16a8a8b91e8dd6f7f3282c46231d07a77950b9138d8632ecce6cc237c697939",
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/events.out.tfevents.1789618900.oms.54833.0": "c321ae0f2e76c7f1e7db6ef569779db04be156b0ea04ad006ccc57da403283ac"
+      }
+    },
+    "original": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/model_1998.pt",
+      "files": {
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/model_1998.pt": "b66d3dcae0eecf9c87926db01c4bbaed77c5c93290bc67c4f78f0ddfb8cc6619",
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/params/env.yaml": "cfb2f07a40535014c3178613a10668d09da84656859bf07b113622702f0e20cc",
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/params/agent.yaml": "0d29f1afb34267b34d304d56ab95333c4aa38b640eab487c57f982d6bd0472b7",
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/events.out.tfevents.1791204491.oms.1168843.0": "fd7ac0834acdaf58da52a2dd63551fc2c90ce8865c498f81c3c1f69a38a3be69"
+      }
+    },
+    "light": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-05_22-08-42_baseline_ft_rough_blocks_light/model_1998.pt",
+      "files": {
+        "logs/rsl_rl/ant/2026-10-05_22-08-42_baseline_ft_rough_blocks_light/model_1998.pt": "769595bde2414cf95897ce3741ff7e827cd91b3b19d183ab1be6c645cbb7403e",
+        "logs/rsl_rl/ant/2026-10-05_22-08-42_baseline_ft_rough_blocks_light/params/env.yaml": "3d0886070105ae6bc42933fb692d53c49effd74d3a3d9cf88a7506bcaba6f010",
+        "logs/rsl_rl/ant/2026-10-05_22-08-42_baseline_ft_rough_blocks_light/params/agent.yaml": "76c71a2feae1d2094a23df4ab9f1ebf7ffa11284a176604bfa403c091a4bfae0",
+        "logs/rsl_rl/ant/2026-10-05_22-08-42_baseline_ft_rough_blocks_light/events.out.tfevents.1791205736.oms.1175523.0": "d8a44528ccf4401473db37977cdc2cfc78f9ee4f676d24150f1bda084284506d"
+      }
+    }
+  },
+  "source_files": {
+    "scripts/reinforcement_learning/rsl_rl/play_one_episode.py": "70dd6d6674ca211f335b57fea5d8dca417fe670753adedf2d002a638b2b089d0",
+    "scripts/reinforcement_learning/rsl_rl/train.py": "ba41d6afca3b6470b4bee05cb4a24f036046845c50f26970c9a944653e3f8d0a",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/ant_env_cfg.py": "586a48b8178d3493564bf32948b60645677ec0c93ece515445919bcb9ea5e7f4",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/terrain.py": "9a401defba378e162aa8aac79d7146e4e78146050a63deaf0823c255081f2345",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/mdp.py": "0cc2041d4e27d3627700452a252dea1d485d14be8a26fa52cba76ee37fea4a5d",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/__init__.py": "080bb11a5ea74dcc0f5d0c37b68d870363ce549c190829a4ad2af704b5c54310",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/agents_cfg.py": "44c75e3cfb00e0450fad368c99c0f57807367e3e89b12d94056ae399f80a33da",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/finetune_env_cfg.py": "4737635d7d30ab5ed1f22de51124514bf07d4fd9787c0cfc2a2a59deaea40c0f",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/block_eval_env_cfg.py": "04a37b97ffe3336bdd4f8a5ed4318c02a72f34389fc16a31aea6c194424c24e0",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/baseline_finetune_env_cfg.py": "61292354d07e6a3699a50014ed367e163179cbbc6accb5f6f90ddab12f233262"
+  },
+  "report_evaluation_script_sha256": "6f0fe679fffa0278f37e46f68b692c4450653cc8e584c88ccaa6551936a33db7",
+  "evaluations": {
+    "eval_grid_baseline.json": "37d5427faab7937e632add44a4c2f233723c8bc1391307a236a7407ff05fe6c5",
+    "eval_grid_original.json": "799d8d10f1d8b493fdd6f45d510da38354ad3762101b4380e404dc4151fa690d",
+    "eval_grid_light.json": "47f517a052e9e8f57b8a8fc79dae26130a7883b7e12da032c8b5f6e404a0a457",
+    "eval_waves_baseline.json": "577d4d364f0bf3af478ca3cff46f837948f1e7a9c0f9786f5209d8f78e0cd976",
+    "eval_waves_original.json": "bf4868c6b86552238c7c25e5ccf0286be93c38d58462a58c082913a232a9b002",
+    "eval_waves_light.json": "c4e24fdebb3237bc02c9bb9f3e2174b2121b64daf25e8b368a63e067e2cbdcd6"
+  },
+  "videos": {
+    "baseline": {
+      "path": "rollout_baseline.mp4",
+      "sha256": "401a23078e8ec2190d4e52d22704fbb46f33644b12a5822b0242f97d164fad14",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "60/1",
+            "nb_frames": "960"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      },
+      "source_evaluation": "eval_grid_baseline.json"
+    },
+    "original": {
+      "path": "rollout_original.mp4",
+      "sha256": "11e5260ecb8c6e54013eabb311f4b016ccd55a63272cc62f84a4ecb3919ca702",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "60/1",
+            "nb_frames": "960"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      },
+      "source_evaluation": "eval_grid_original.json"
+    },
+    "light": {
+      "path": "rollout_light.mp4",
+      "sha256": "659afabde8c14e81eeee91f1a780ea94ca168125ccf285a96d1bf64cc53d1c1a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "60/1",
+            "nb_frames": "960"
+          }
+        ],
+        "format": {
+          "duration": "16.000000"
+        }
+      },
+      "source_evaluation": "eval_grid_light.json"
+    }
+  }
+}

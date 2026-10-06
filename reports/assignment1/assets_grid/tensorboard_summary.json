@@ -1,0 +1,620 @@
+{
+  "baseline": {
+    "run": "2026-09-17_13-21-32_ant_baseline",
+    "tags": {
+      "Episode_Reward/progress": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 1.621981628226349,
+        "last100_mean": 8.383752574920655,
+        "last": 8.087724685668945,
+        "wall_time_span_s": 1087.8867814540863
+      },
+      "Episode_Reward/alive": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.3701528926379979,
+        "last100_mean": 0.47561824589967727,
+        "last": 0.46161699295043945,
+        "wall_time_span_s": 1087.8871803283691
+      },
+      "Episode_Reward/upright": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.0707506490405649,
+        "last100_mean": 0.09408999070525169,
+        "last": 0.09100185334682465,
+        "wall_time_span_s": 1087.8875749111176
+      },
+      "Episode_Reward/move_to_target": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.3232964464649558,
+        "last100_mean": 0.4741833683848381,
+        "last": 0.46030160784721375,
+        "wall_time_span_s": 1087.8883147239685
+      },
+      "Episode_Reward/action_l2": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": -0.015552862028125674,
+        "last100_mean": -0.01868996785953641,
+        "last": -0.01802772656083107,
+        "wall_time_span_s": 1087.8884925842285
+      },
+      "Episode_Reward/energy": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": -0.5777025102823973,
+        "last100_mean": -0.8361623948812484,
+        "last": -0.8006449341773987,
+        "wall_time_span_s": 1087.8883798122406
+      },
+      "Episode_Reward/joint_pos_limits": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": -0.25562960263341666,
+        "last100_mean": -0.30962991386651995,
+        "last": -0.30140992999076843,
+        "wall_time_span_s": 1087.888245344162
+      },
+      "Episode_Termination/time_out": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.6203135681152344,
+        "last100_mean": 0.9455005645751953,
+        "last": 0.9475860595703125,
+        "wall_time_span_s": 1087.8883678913116
+      },
+      "Episode_Termination/torso_height": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.28611663818359373,
+        "last100_mean": 0.05449943542480469,
+        "last": 0.0524139404296875,
+        "wall_time_span_s": 1087.8882250785828
+      },
+      "Loss/value_function": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.027430989923886956,
+        "last100_mean": 0.02803674219176173,
+        "last": 0.03042834810912609,
+        "wall_time_span_s": 1087.8881042003632
+      },
+      "Loss/surrogate": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": -0.0033714288058399686,
+        "last100_mean": 0.003328767031107418,
+        "last": 0.0005930304178036749,
+        "wall_time_span_s": 1087.8880841732025
+      },
+      "Loss/entropy": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 5.161893876791001,
+        "last100_mean": -18.29194200515747,
+        "last": -18.710247039794922,
+        "wall_time_span_s": 1087.8880825042725
+      },
+      "Loss/learning_rate": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.0014850940195901786,
+        "last100_mean": 1.1099999719590414e-05,
+        "last": 9.999999747378752e-06,
+        "wall_time_span_s": 1087.8880898952484
+      },
+      "Policy/mean_noise_std": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.493581095635891,
+        "last100_mean": 0.03728616829961538,
+        "last": 0.036261484026908875,
+        "wall_time_span_s": 1087.8880789279938
+      },
+      "Perf/total_fps": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 120389.83,
+        "last100_mean": 123147.61,
+        "last": 121829.0,
+        "wall_time_span_s": 1087.888087272644
+      },
+      "Perf/collection time": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.883980815410614,
+        "last100_mean": 0.8487512564659119,
+        "last": 0.8610460758209229,
+        "wall_time_span_s": 1087.8881039619446
+      },
+      "Perf/learning_time": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 0.21954224824905397,
+        "last100_mean": 0.2157120203971863,
+        "last": 0.21481609344482422,
+        "wall_time_span_s": 1087.8881142139435
+      },
+      "Train/mean_reward": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 24.394568326473237,
+        "last100_mean": 131.87028854370118,
+        "last": 131.62413024902344,
+        "wall_time_span_s": 1087.8881437778473
+      },
+      "Train/mean_episode_length": {
+        "count": 1000,
+        "first_step": 0,
+        "last_step": 999,
+        "first100_mean": 704.9865007019043,
+        "last100_mean": 910.840400390625,
+        "last": 907.8800048828125,
+        "wall_time_span_s": 1087.8882150650024
+      },
+      "Train/mean_reward/time": {
+        "count": 1000,
+        "first_step": 3,
+        "last_step": 1069,
+        "first100_mean": 24.394568326473237,
+        "last100_mean": 131.87028854370118,
+        "last": 131.62413024902344,
+        "wall_time_span_s": 1087.888333082199
+      },
+      "Train/mean_episode_length/time": {
+        "count": 1000,
+        "first_step": 3,
+        "last_step": 1069,
+        "first100_mean": 704.9865007019043,
+        "last100_mean": 910.840400390625,
+        "last": 907.8800048828125,
+        "wall_time_span_s": 1087.8883702754974
+      }
+    }
+  },
+  "original": {
+    "run": "2026-10-05_21-47-43_baseline_ft_rough_blocks_original",
+    "tags": {
+      "Episode_Reward/progress": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.6421876267343759,
+        "last100_mean": 1.1890411233901979,
+        "last": 1.2099103927612305,
+        "wall_time_span_s": 1216.9943914413452
+      },
+      "Episode_Reward/alive": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.21862902418710292,
+        "last100_mean": 0.3027704426646233,
+        "last": 0.30111274123191833,
+        "wall_time_span_s": 1216.995216369629
+      },
+      "Episode_Reward/upright": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.03985005345195532,
+        "last100_mean": 0.056268582232296464,
+        "last": 0.05520647019147873,
+        "wall_time_span_s": 1216.9966144561768
+      },
+      "Episode_Reward/move_to_target": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.17954621687531472,
+        "last100_mean": 0.2526431408524513,
+        "last": 0.25379806756973267,
+        "wall_time_span_s": 1216.9980409145355
+      },
+      "Episode_Reward/action_l2": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.006981313050782773,
+        "last100_mean": -0.009229419901967049,
+        "last": -0.00927403848618269,
+        "wall_time_span_s": 1216.9988520145416
+      },
+      "Episode_Reward/energy": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.26752811308018865,
+        "last100_mean": -0.40193329453468324,
+        "last": -0.40196681022644043,
+        "wall_time_span_s": 1216.9995293617249
+      },
+      "Episode_Reward/joint_pos_limits": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.18403911017812788,
+        "last100_mean": -0.21569736793637276,
+        "last": -0.21559910476207733,
+        "wall_time_span_s": 1217.0001275539398
+      },
+      "Episode_Termination/time_out": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.2970741271972656,
+        "last100_mean": 0.49143203735351565,
+        "last": 0.48715972900390625,
+        "wall_time_span_s": 1217.0010766983032
+      },
+      "Episode_Termination/torso_height": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.6050066375732421,
+        "last100_mean": 0.5085679626464844,
+        "last": 0.5128402709960938,
+        "wall_time_span_s": 1217.0018408298492
+      },
+      "Loss/value_function": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.5349345090985298,
+        "last100_mean": 0.25453107461333274,
+        "last": 0.24285121262073517,
+        "wall_time_span_s": 1217.0020778179169
+      },
+      "Loss/surrogate": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.006094853686117858,
+        "last100_mean": 0.008415970532223583,
+        "last": 0.006261324509978294,
+        "wall_time_span_s": 1217.0020990371704
+      },
+      "Loss/entropy": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -19.03611343383789,
+        "last100_mean": -21.79939395904541,
+        "last": -21.904067993164062,
+        "wall_time_span_s": 1217.0021188259125
+      },
+      "Loss/learning_rate": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 1.2374999714666046e-05,
+        "last100_mean": 9.999999747378752e-06,
+        "last": 9.999999747378752e-06,
+        "wall_time_span_s": 1217.00213265419
+      },
+      "Policy/mean_noise_std": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.03566578023135662,
+        "last100_mean": 0.02954692792147398,
+        "last": 0.029212182387709618,
+        "wall_time_span_s": 1217.0021424293518
+      },
+      "Perf/total_fps": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 110050.35,
+        "last100_mean": 109279.4,
+        "last": 108145.0,
+        "wall_time_span_s": 1217.002158164978
+      },
+      "Perf/collection time": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.9784004092216492,
+        "last100_mean": 0.9779803442955017,
+        "last": 0.9882333278656006,
+        "wall_time_span_s": 1217.0021681785583
+      },
+      "Perf/learning_time": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.2175053596496582,
+        "last100_mean": 0.2217289066314697,
+        "last": 0.22376179695129395,
+        "wall_time_span_s": 1217.0021691322327
+      },
+      "Train/mean_reward": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 9.818292204886674,
+        "last100_mean": 18.729560403823854,
+        "last": 19.82831573486328,
+        "wall_time_span_s": 1217.0022311210632
+      },
+      "Train/mean_episode_length": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 421.92049934387205,
+        "last100_mean": 584.8141989135743,
+        "last": 604.3499755859375,
+        "wall_time_span_s": 1217.0022985935211
+      },
+      "Train/mean_reward/time": {
+        "count": 1000,
+        "first_step": 2,
+        "last_step": 1197,
+        "first100_mean": 9.818292204886674,
+        "last100_mean": 18.729560403823854,
+        "last": 19.82831573486328,
+        "wall_time_span_s": 1217.002030134201
+      },
+      "Train/mean_episode_length/time": {
+        "count": 1000,
+        "first_step": 2,
+        "last_step": 1197,
+        "first100_mean": 421.92049934387205,
+        "last100_mean": 584.8141989135743,
+        "last": 604.3499755859375,
+        "wall_time_span_s": 1217.0020170211792
+      }
+    }
+  },
+  "light": {
+    "run": "2026-10-05_22-08-42_baseline_ft_rough_blocks_light",
+    "tags": {
+      "Episode_Reward/progress": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.6297740803100169,
+        "last100_mean": 1.1708974826335907,
+        "last": 1.097105622291565,
+        "wall_time_span_s": 1223.1730289459229
+      },
+      "Episode_Reward/alive": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.22041416221298277,
+        "last100_mean": 0.3072008290886879,
+        "last": 0.28526416420936584,
+        "wall_time_span_s": 1223.173645734787
+      },
+      "Episode_Reward/upright": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.04027930239913985,
+        "last100_mean": 0.05743304453790188,
+        "last": 0.052721500396728516,
+        "wall_time_span_s": 1223.1745579242706
+      },
+      "Episode_Reward/move_to_target": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.17993679083883762,
+        "last100_mean": 0.2540972156822681,
+        "last": 0.2384485900402069,
+        "wall_time_span_s": 1223.1753447055817
+      },
+      "Episode_Reward/action_l2": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.007093914037977811,
+        "last100_mean": -0.009222430493682623,
+        "last": -0.008708208799362183,
+        "wall_time_span_s": 1223.1760668754578
+      },
+      "Episode_Reward/energy": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.2690137603972107,
+        "last100_mean": -0.3975557842850685,
+        "last": -0.38008013367652893,
+        "wall_time_span_s": 1223.176298379898
+      },
+      "Episode_Reward/joint_pos_limits": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.18812204995192588,
+        "last100_mean": -0.22338854178786277,
+        "last": -0.20290598273277283,
+        "wall_time_span_s": 1223.176565170288
+      },
+      "Episode_Reward/vertical_velocity": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.09333744933828711,
+        "last100_mean": -0.1184708833694458,
+        "last": -0.11599528789520264,
+        "wall_time_span_s": 1223.1769363880157
+      },
+      "Episode_Reward/roll_pitch_velocity": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.052081506354734304,
+        "last100_mean": -0.07965540573000908,
+        "last": -0.07986979186534882,
+        "wall_time_span_s": 1223.1769740581512
+      },
+      "Episode_Reward/lateral_velocity": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.019980869845021516,
+        "last100_mean": -0.030929340831935406,
+        "last": -0.02835388109087944,
+        "wall_time_span_s": 1223.1767995357513
+      },
+      "Episode_Reward/heading_error": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -0.10970066156820395,
+        "last100_mean": -0.14390084221959115,
+        "last": -0.12875375151634216,
+        "wall_time_span_s": 1223.17662358284
+      },
+      "Episode_Termination/time_out": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.3127526092529297,
+        "last100_mean": 0.5161287689208984,
+        "last": 0.5219573974609375,
+        "wall_time_span_s": 1223.1764676570892
+      },
+      "Episode_Termination/torso_height": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.5889351654052735,
+        "last100_mean": 0.48387123107910157,
+        "last": 0.4780426025390625,
+        "wall_time_span_s": 1223.1771109104156
+      },
+      "Loss/value_function": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.5365921097993851,
+        "last100_mean": 0.26740467637777326,
+        "last": 0.2559635639190674,
+        "wall_time_span_s": 1223.1771004199982
+      },
+      "Loss/surrogate": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.005288680706580635,
+        "last100_mean": 0.006919459910131991,
+        "last": 0.0069561307318508625,
+        "wall_time_span_s": 1223.1771161556244
+      },
+      "Loss/entropy": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": -18.882772789001464,
+        "last100_mean": -22.052841720581053,
+        "last": -22.19750213623047,
+        "wall_time_span_s": 1223.1771206855774
+      },
+      "Loss/learning_rate": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 1.3024999734625453e-05,
+        "last100_mean": 9.999999747378752e-06,
+        "last": 9.999999747378752e-06,
+        "wall_time_span_s": 1223.1771278381348
+      },
+      "Policy/mean_noise_std": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.03577433656901121,
+        "last100_mean": 0.02899721898138523,
+        "last": 0.02862708643078804,
+        "wall_time_span_s": 1223.1772742271423
+      },
+      "Perf/total_fps": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 107989.62,
+        "last100_mean": 109539.29,
+        "last": 112564.0,
+        "wall_time_span_s": 1223.1772830486298
+      },
+      "Perf/collection time": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 1.0107436156272889,
+        "last100_mean": 0.9805445265769959,
+        "last": 0.9517052173614502,
+        "wall_time_span_s": 1223.177280664444
+      },
+      "Perf/learning_time": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 0.21797699451446534,
+        "last100_mean": 0.21620239734649657,
+        "last": 0.21271038055419922,
+        "wall_time_span_s": 1223.177284002304
+      },
+      "Train/mean_reward": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 5.217897524684668,
+        "last100_mean": 12.464131798744202,
+        "last": 12.217060089111328,
+        "wall_time_span_s": 1223.1772167682648
+      },
+      "Train/mean_episode_length": {
+        "count": 1000,
+        "first_step": 999,
+        "last_step": 1998,
+        "first100_mean": 424.51909969329836,
+        "last100_mean": 592.7572003173829,
+        "last": 575.0599975585938,
+        "wall_time_span_s": 1223.1772284507751
+      },
+      "Train/mean_reward/time": {
+        "count": 1000,
+        "first_step": 3,
+        "last_step": 1200,
+        "first100_mean": 5.217897524684668,
+        "last100_mean": 12.464131798744202,
+        "last": 12.217060089111328,
+        "wall_time_span_s": 1223.1772541999817
+      },
+      "Train/mean_episode_length/time": {
+        "count": 1000,
+        "first_step": 3,
+        "last_step": 1200,
+        "first100_mean": 424.51909969329836,
+        "last100_mean": 592.7572003173829,
+        "last": 575.0599975585938,
+        "wall_time_span_s": 1223.180777311325
+      }
+    }
+  }
+}

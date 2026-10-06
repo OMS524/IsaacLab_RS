@@ -1,0 +1,235 @@
+{
+  "evaluation_version": "2026-10-05-restored-grid-average-friction-unfixed-initial-contact",
+  "task": "Isaac-Ant-DR-Eval-v0",
+  "checkpoint": "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/model_999.pt",
+  "seed": 24,
+  "num_envs": 100,
+  "completed": 100,
+  "reward_mean": 51.198380125722615,
+  "reward_std": 26.77368567422739,
+  "steps_mean": 711.8100000000001,
+  "steps_std": 299.1988200177267,
+  "termination_counts": {
+    "time_limit_without_termination": 37,
+    "low_clearance": 33,
+    "no_ground": 31
+  },
+  "first_episodes": {
+    "clearance_mean": 0.5009133815765381,
+    "clearance_max": 2.2568836212158203,
+    "vertical_speed_abs_mean": 0.6397441625595093,
+    "vertical_speed_abs_max": 6.023074150085449,
+    "upright_mean": 0.9509477615356445
+  },
+  "env0": {
+    "steps": 915,
+    "reward": 58.412226009881124,
+    "clearance_min": -Infinity,
+    "clearance_max": 1.1824628114700317,
+    "vertical_speed_min": -3.745712995529175,
+    "vertical_speed_max": 3.979168653488159,
+    "minimum_upright": -0.8119550943374634,
+    "end_position": [
+      80.18638610839844,
+      -12.839648246765137,
+      0.2980421781539917
+    ],
+    "reset_times_s": [
+      15.250000953674316
+    ],
+    "samples_half_sec": [
+      {
+        "time": 0.017,
+        "clearance": 0.5395289659500122,
+        "vertical_speed": 3.097903251647949,
+        "upright": 0.9921902418136597
+      },
+      {
+        "time": 0.517,
+        "clearance": 1.0181913375854492,
+        "vertical_speed": -0.015431839972734451,
+        "upright": 0.6109678149223328
+      },
+      {
+        "time": 1.017,
+        "clearance": 1.0649670362472534,
+        "vertical_speed": 0.4579458236694336,
+        "upright": 0.40720421075820923
+      },
+      {
+        "time": 1.517,
+        "clearance": 1.0953150987625122,
+        "vertical_speed": -0.3925401568412781,
+        "upright": 0.48748254776000977
+      },
+      {
+        "time": 2.017,
+        "clearance": 0.35086190700531006,
+        "vertical_speed": 0.37240973114967346,
+        "upright": 0.9999902248382568
+      },
+      {
+        "time": 2.517,
+        "clearance": 0.332116961479187,
+        "vertical_speed": 0.03150572255253792,
+        "upright": 0.9997611045837402
+      },
+      {
+        "time": 3.017,
+        "clearance": 0.3318232297897339,
+        "vertical_speed": 0.046251002699136734,
+        "upright": 0.9995781779289246
+      },
+      {
+        "time": 3.517,
+        "clearance": 0.3716909885406494,
+        "vertical_speed": -0.38162630796432495,
+        "upright": 0.998610258102417
+      },
+      {
+        "time": 4.017,
+        "clearance": 0.4533643424510956,
+        "vertical_speed": -0.18336325883865356,
+        "upright": 0.9964536428451538
+      },
+      {
+        "time": 4.517,
+        "clearance": 0.4913081228733063,
+        "vertical_speed": 1.2477107048034668,
+        "upright": 0.9846733212471008
+      },
+      {
+        "time": 5.017,
+        "clearance": 0.4781155586242676,
+        "vertical_speed": -0.5811275243759155,
+        "upright": 0.9907485246658325
+      },
+      {
+        "time": 5.517,
+        "clearance": 0.5214602947235107,
+        "vertical_speed": -0.8984683752059937,
+        "upright": 0.9535704851150513
+      },
+      {
+        "time": 6.017,
+        "clearance": 0.3653692305088043,
+        "vertical_speed": 0.019356871023774147,
+        "upright": 0.9999552965164185
+      },
+      {
+        "time": 6.517,
+        "clearance": 0.4859105050563812,
+        "vertical_speed": -0.7060338854789734,
+        "upright": 0.9910709261894226
+      },
+      {
+        "time": 7.017,
+        "clearance": 0.4637586772441864,
+        "vertical_speed": 1.6373714208602905,
+        "upright": 0.9970129132270813
+      },
+      {
+        "time": 7.517,
+        "clearance": 0.6923700571060181,
+        "vertical_speed": 0.20980067551136017,
+        "upright": 0.9825810790061951
+      },
+      {
+        "time": 8.017,
+        "clearance": 0.6534457802772522,
+        "vertical_speed": 0.09566600620746613,
+        "upright": 0.9672345519065857
+      },
+      {
+        "time": 8.517,
+        "clearance": 0.5409499406814575,
+        "vertical_speed": 1.029913067817688,
+        "upright": 0.9947654008865356
+      },
+      {
+        "time": 9.017,
+        "clearance": 0.528644323348999,
+        "vertical_speed": 0.06875371932983398,
+        "upright": 0.9966889023780823
+      },
+      {
+        "time": 9.517,
+        "clearance": 0.3824082016944885,
+        "vertical_speed": -0.45602357387542725,
+        "upright": 0.999040961265564
+      },
+      {
+        "time": 10.017,
+        "clearance": 0.34103286266326904,
+        "vertical_speed": 0.17063720524311066,
+        "upright": 0.9994875192642212
+      },
+      {
+        "time": 10.517,
+        "clearance": 0.3613373339176178,
+        "vertical_speed": -0.1711517721414566,
+        "upright": 0.9967511296272278
+      },
+      {
+        "time": 11.017,
+        "clearance": 0.3373088538646698,
+        "vertical_speed": -0.6931556463241577,
+        "upright": 0.9998345375061035
+      },
+      {
+        "time": 11.517,
+        "clearance": 0.4207785427570343,
+        "vertical_speed": -0.4547765851020813,
+        "upright": 0.998498797416687
+      },
+      {
+        "time": 12.017,
+        "clearance": 0.44905203580856323,
+        "vertical_speed": -1.205601692199707,
+        "upright": 0.9998195171356201
+      },
+      {
+        "time": 12.517,
+        "clearance": 0.577431321144104,
+        "vertical_speed": -0.11623332649469376,
+        "upright": 0.9872658848762512
+      },
+      {
+        "time": 13.017,
+        "clearance": 0.6632664799690247,
+        "vertical_speed": -0.7529159188270569,
+        "upright": 0.9279058575630188
+      },
+      {
+        "time": 13.517,
+        "clearance": 0.6111718416213989,
+        "vertical_speed": -0.9502924680709839,
+        "upright": 0.9707358479499817
+      },
+      {
+        "time": 14.017,
+        "clearance": 0.5622608661651611,
+        "vertical_speed": 1.741882085800171,
+        "upright": 0.9842643737792969
+      },
+      {
+        "time": 14.517,
+        "clearance": 0.5987940430641174,
+        "vertical_speed": 3.427837371826172,
+        "upright": 0.9898408651351929
+      },
+      {
+        "time": 15.017,
+        "clearance": 1.0195783376693726,
+        "vertical_speed": -2.3306961059570312,
+        "upright": -0.09391045570373535
+      },
+      {
+        "time": 15.517,
+        "clearance": 0.603335440158844,
+        "vertical_speed": -0.3624347448348999,
+        "upright": 0.9208955764770508
+      }
+    ]
+  }
+}

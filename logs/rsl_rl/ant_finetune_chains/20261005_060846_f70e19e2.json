@@ -1,0 +1,66 @@
+{
+  "chain_id": "20261005_060846_f70e19e2",
+  "status": "completed",
+  "settings": {
+    "reward": "both",
+    "num_envs": 4096,
+    "seed": 42,
+    "iterations": [
+      1000,
+      500,
+      500
+    ],
+    "device": null,
+    "dry_run": false
+  },
+  "stages": [
+    {
+      "reward": "original",
+      "stage": "flat",
+      "task": "Isaac-Ant-FT-Flat-v0",
+      "iterations": 1000,
+      "resume_from": null,
+      "checkpoint": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_original/2026-10-05_06-08-57_auto_20261005_060846_f70e19e2_original_ft_stage1_flat/model_999.pt"
+    },
+    {
+      "reward": "original",
+      "stage": "mild",
+      "task": "Isaac-Ant-FT-Mild-v0",
+      "iterations": 500,
+      "resume_from": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_original/2026-10-05_06-08-57_auto_20261005_060846_f70e19e2_original_ft_stage1_flat/model_999.pt",
+      "checkpoint": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_original/2026-10-05_06-27-55_auto_20261005_060846_f70e19e2_original_ft_stage2_mild/model_1498.pt"
+    },
+    {
+      "reward": "original",
+      "stage": "dr",
+      "task": "Isaac-Ant-FT-DR-v0",
+      "iterations": 500,
+      "resume_from": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_original/2026-10-05_06-27-55_auto_20261005_060846_f70e19e2_original_ft_stage2_mild/model_1498.pt",
+      "checkpoint": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_original/2026-10-05_06-38-01_auto_20261005_060846_f70e19e2_original_ft_stage3_dr/model_1997.pt"
+    },
+    {
+      "reward": "light",
+      "stage": "flat",
+      "task": "Isaac-Ant-FT-Light-Flat-v0",
+      "iterations": 1000,
+      "resume_from": null,
+      "checkpoint": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_forward_light/2026-10-05_06-48-09_auto_20261005_060846_f70e19e2_light_ft_stage1_flat/model_999.pt"
+    },
+    {
+      "reward": "light",
+      "stage": "mild",
+      "task": "Isaac-Ant-FT-Light-Mild-v0",
+      "iterations": 500,
+      "resume_from": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_forward_light/2026-10-05_06-48-09_auto_20261005_060846_f70e19e2_light_ft_stage1_flat/model_999.pt",
+      "checkpoint": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_forward_light/2026-10-05_07-07-27_auto_20261005_060846_f70e19e2_light_ft_stage2_mild/model_1498.pt"
+    },
+    {
+      "reward": "light",
+      "stage": "dr",
+      "task": "Isaac-Ant-FT-Light-DR-v0",
+      "iterations": 500,
+      "resume_from": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_forward_light/2026-10-05_07-07-27_auto_20261005_060846_f70e19e2_light_ft_stage2_mild/model_1498.pt",
+      "checkpoint": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant_ft_forward_light/2026-10-05_07-17-50_auto_20261005_060846_f70e19e2_light_ft_stage3_dr/model_1997.pt"
+    }
+  ]
+}

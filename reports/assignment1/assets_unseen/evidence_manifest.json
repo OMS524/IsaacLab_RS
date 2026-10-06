@@ -1,0 +1,305 @@
+{
+  "report_date": "2026-10-06",
+  "evaluation_root": "logs/ant_eval_unseen_video_20261006_041317",
+  "models": {
+    "M1": {
+      "checkpoint": "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/model_999.pt",
+      "checkpoint_sha256": "d3f8502703a3afac7f45cf61a124b58ab057c98206eb9bebb7a9c77d060a40a5",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/params/env.yaml": "b8e4bb05a843206e297f1b9a6ef03f95005e0c7566985bb9159f52142d4be28c",
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/params/agent.yaml": "c16a8a8b91e8dd6f7f3282c46231d07a77950b9138d8632ecce6cc237c697939",
+        "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/events.out.tfevents.1789618900.oms.54833.0": "c321ae0f2e76c7f1e7db6ef569779db04be156b0ea04ad006ccc57da403283ac"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "fdb15fe064d568cb893625c777c6ac175552967d21d595978d108f136267f640",
+          "video_sha256": "4537ed16eda7369316a86bab1d422fd3b0dd4f970ead12f9a2d75bfeb7989cc9",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "waves": {
+          "log_sha256": "91f46f13607dea26057732c7b65a8dffdd1c0ba7f7a95dcd01cd4a467771a3a5",
+          "video_sha256": "2c648e479286e820c96a1b6198c2b1cb4c940547340a96f113a20cc55f7b15a5",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    },
+    "M2": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-06_02-01-31_scratch_rough_blocks_original/model_999.pt",
+      "checkpoint_sha256": "69dcb40556665fd3df290410be492b66f9fc97f82d6eb7942fbbe83df4faaadc",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-10-06_02-01-31_scratch_rough_blocks_original/params/env.yaml": "16354f78c8ecf637c79d139b2ae46a67a3d8a4af2fa4cc63ecceed324c002d80",
+        "logs/rsl_rl/ant/2026-10-06_02-01-31_scratch_rough_blocks_original/params/agent.yaml": "953e2dd5f079246b9e9cce80ce4853100d6b55f33f471c98fa35d17f183c26b6",
+        "logs/rsl_rl/ant/2026-10-06_02-01-31_scratch_rough_blocks_original/events.out.tfevents.1791219704.oms.1262604.0": "5aeff4337914ed2914b80045f1430eee1bf3c301868ef3ac82fe546053e808a9"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "cecffae35a34a844edca44f523afb88bb0750118825350e9a787e7f1005d1bc2",
+          "video_sha256": "e1346a8bcc8304805128810fb8fc85162de688f3a0b5b88209d70dd38c2900cd",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "waves": {
+          "log_sha256": "7e4094051f41af1ffec64bfa932ede9579d5beaf5c1a7b1c9d3fb361ba604c2e",
+          "video_sha256": "3b905514085835b3d3b937e402b910217e6689a0fc68c11316c408540f9ebcd5",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    },
+    "M3": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-06_02-21-55_scratch_rough_blocks_light/model_999.pt",
+      "checkpoint_sha256": "62c71268d47ad182102866820280db68ae15834bd76ce7c3e1e5ddcce0c1f103",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-10-06_02-21-55_scratch_rough_blocks_light/params/env.yaml": "b038f402d222660958708198deec93bfbe4e5a684bfcc93b4def31333f8598d2",
+        "logs/rsl_rl/ant/2026-10-06_02-21-55_scratch_rough_blocks_light/params/agent.yaml": "bca585571c19085aba8dee2549c6fe5e1001c55007b9c347dbb0382d60525c71",
+        "logs/rsl_rl/ant/2026-10-06_02-21-55_scratch_rough_blocks_light/events.out.tfevents.1791220927.oms.1275162.0": "d9372527b7d552c63d30da392b8ccc35ade5d2d2fbf3f55d25419739b838122b"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "3db40bd4038c8b9d5da41f478d28e6b880e848a480bd4d31fabe0fd89f54c684",
+          "video_sha256": "3d00beb6f3b9e00f49c61b143a225e0e1d8a8409df32ed704f89194572e6483d",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "waves": {
+          "log_sha256": "775705dc3c1eed30e5007b0212727a9db408afcc6acc69b490e7b8a0b85df373",
+          "video_sha256": "84fd88e3425c66ed761bb40adffed96b1d77a2240c3c35068549bf8bd293e761",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    },
+    "M4": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/model_1998.pt",
+      "checkpoint_sha256": "b66d3dcae0eecf9c87926db01c4bbaed77c5c93290bc67c4f78f0ddfb8cc6619",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/params/env.yaml": "cfb2f07a40535014c3178613a10668d09da84656859bf07b113622702f0e20cc",
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/params/agent.yaml": "0d29f1afb34267b34d304d56ab95333c4aa38b640eab487c57f982d6bd0472b7",
+        "logs/rsl_rl/ant/2026-10-05_21-47-43_baseline_ft_rough_blocks_original/events.out.tfevents.1791204491.oms.1168843.0": "fd7ac0834acdaf58da52a2dd63551fc2c90ce8865c498f81c3c1f69a38a3be69"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "604445baf2c84ca902e1407ec1353bb00298bc031f5c0556f63023db85b816c1",
+          "video_sha256": "c7d9b5c4d3e0d98299e5c4c9027072024cc8d7353fa3a6da2024e433c54e92c3",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "waves": {
+          "log_sha256": "2ef47b8a2b08e57e949bf0c6a579916f6584ec03cf42d65b169831e16c519e05",
+          "video_sha256": "d6cf1c02952d49afb39a943cc28e46930c80826106741682f922406b1b954c79",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    },
+    "M5": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-05_23-50-19_baseline_ft_rough_blocks_light/model_1998.pt",
+      "checkpoint_sha256": "276d8b2ac70076269e44672dbc04dfc5df9ced2689c9f50b4e4f1ef7a8772e66",
+      "training_files": {
+        "logs/rsl_rl/ant/2026-10-05_23-50-19_baseline_ft_rough_blocks_light/params/env.yaml": "af7b505d859fbce56bfeafc5854dcc94e22f0c39ecbf43b40c30b97d28a81ea0",
+        "logs/rsl_rl/ant/2026-10-05_23-50-19_baseline_ft_rough_blocks_light/params/agent.yaml": "76c71a2feae1d2094a23df4ab9f1ebf7ffa11284a176604bfa403c091a4bfae0",
+        "logs/rsl_rl/ant/2026-10-05_23-50-19_baseline_ft_rough_blocks_light/events.out.tfevents.1791211832.oms.1216862.0": "c5af9c2d1cccffdaf357213b054f6a83292a6e446b8c8c9f8724208ef60d6674"
+      },
+      "evaluation": {
+        "grid": {
+          "log_sha256": "bb630ca8aad82665b9359cb456e95df687c94380a41e9583cd451349f9e1418a",
+          "video_sha256": "7c0bfdfbd254c2461debb5b6da0fff0bf8b66b4c76bfb1c1aaf4a3965988e91b",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        },
+        "waves": {
+          "log_sha256": "fcb158814ce3f9cc9a1a96bebca01fa2b0d0ae428341dafc1ac2c1c1c2982abc",
+          "video_sha256": "a848b52cfb4a3d9eb55f131e75cfad182bea31fe4e6342a268e492dbe683ffd6",
+          "probe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "width": 1280,
+                "height": 720,
+                "avg_frame_rate": "60/1",
+                "nb_frames": "960"
+              }
+            ],
+            "format": {
+              "duration": "16.000000"
+            }
+          }
+        }
+      }
+    }
+  },
+  "source_files": {
+    "scripts/reinforcement_learning/rsl_rl/play_one_episode.py": "70dd6d6674ca211f335b57fea5d8dca417fe670753adedf2d002a638b2b089d0",
+    "scripts/reinforcement_learning/rsl_rl/train.py": "ba41d6afca3b6470b4bee05cb4a24f036046845c50f26970c9a944653e3f8d0a",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/ant_env_cfg.py": "586a48b8178d3493564bf32948b60645677ec0c93ece515445919bcb9ea5e7f4",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/terrain.py": "9a401defba378e162aa8aac79d7146e4e78146050a63deaf0823c255081f2345",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/mdp.py": "0cc2041d4e27d3627700452a252dea1d485d14be8a26fa52cba76ee37fea4a5d",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/__init__.py": "080bb11a5ea74dcc0f5d0c37b68d870363ce549c190829a4ad2af704b5c54310",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/agents_cfg.py": "44c75e3cfb00e0450fad368c99c0f57807367e3e89b12d94056ae399f80a33da",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/finetune_env_cfg.py": "4737635d7d30ab5ed1f22de51124514bf07d4fd9787c0cfc2a2a59deaea40c0f",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/block_eval_env_cfg.py": "04a37b97ffe3336bdd4f8a5ed4318c02a72f34389fc16a31aea6c194424c24e0",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/baseline_finetune_env_cfg.py": "ed620b72216261f5684a0bea6090a7d11682b78a20d3fe5dd90819f1f6e9abdb"
+  },
+  "hydra_overrides": {
+    "outputs/2026-10-06/04-13-36/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/04-15-12/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2404"
+    ],
+    "outputs/2026-10-06/04-16-47/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/04-18-22/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2404"
+    ],
+    "outputs/2026-10-06/04-19-57/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/04-21-31/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2404"
+    ],
+    "outputs/2026-10-06/04-23-06/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/04-24-40/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2404"
+    ],
+    "outputs/2026-10-06/04-26-12/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2403",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_width=0.7",
+      "env.scene.terrain.terrain_generator.sub_terrains.blocks.grid_height_range=[0.06,0.06]"
+    ],
+    "outputs/2026-10-06/04-27-46/.hydra/overrides.yaml": [
+      "env.scene.terrain.terrain_generator.seed=2404"
+    ]
+  }
+}

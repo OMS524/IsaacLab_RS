@@ -1,0 +1,8 @@
+- env.scene.terrain.terrain_generator.seed=2405
+- env.scene.terrain.terrain_generator.sub_terrains.flat.proportion=0.0
+- env.scene.terrain.terrain_generator.sub_terrains.slope.proportion=0.0
+- env.scene.terrain.terrain_generator.sub_terrains.inverted_slope.proportion=0.0
+- env.scene.terrain.terrain_generator.sub_terrains.rough.proportion=1.0
+- env.scene.terrain.terrain_generator.sub_terrains.rough.noise_range=[-0.025,0.025]
+- env.scene.terrain.terrain_generator.sub_terrains.rough.noise_step=0.005
+- env.scene.terrain.terrain_generator.sub_terrains.rough.downsampled_scale=0.3

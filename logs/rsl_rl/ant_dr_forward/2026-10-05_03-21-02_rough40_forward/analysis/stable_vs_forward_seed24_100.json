@@ -1,0 +1,109 @@
+{
+  "conditions": {
+    "evaluation_task": "Isaac-Ant-DR-Eval-v0",
+    "evaluation_seed": 24,
+    "num_envs": 100,
+    "reward": "Original seven Ant reward terms",
+    "training_iterations": 1000,
+    "training_seed": 42,
+    "training_num_envs": 4096,
+    "training_configuration_difference": "Only lateral_velocity (-0.25) and heading_error (-1.0), plus run/log names."
+  },
+  "models": {
+    "stable_1000": {
+      "task": "Isaac-Ant-DR-Eval-v0",
+      "checkpoint": "logs/rsl_rl/ant_dr_stable/2026-10-05_01-29-45_rough40_stable/model_999.pt",
+      "seed": 24,
+      "num_envs": 100,
+      "completed": 100,
+      "reward_mean": 53.494228315954096,
+      "reward_std": 29.766001828311655,
+      "steps_mean": 705.04,
+      "steps_std": 298.3844808296839,
+      "termination_counts": {
+        "time_limit_without_termination": 44,
+        "low_clearance": 55,
+        "no_ground": 1
+      },
+      "first_episodes": {
+        "clearance_mean": 0.5078651905059814,
+        "clearance_max": 1.1146183013916016,
+        "vertical_speed_abs_mean": 0.5247946977615356,
+        "vertical_speed_abs_max": 3.5442347526550293,
+        "upright_mean": 0.9575746655464172
+      },
+      "env0": {
+        "steps": 575,
+        "reward": 25.35218149749562,
+        "clearance_min": 0.30495506525039673,
+        "clearance_max": 0.9683820605278015,
+        "vertical_speed_min": -1.9853588342666626,
+        "vertical_speed_max": 2.84898042678833,
+        "minimum_upright": -0.9238812923431396,
+        "end_position": [
+          -7.821590900421143,
+          -14.45543384552002,
+          0.3058009743690491
+        ],
+        "reset_times_s": [
+          9.583333969116211
+        ]
+      },
+      "movement": {
+        "mean_goal_progress_m_excluding_first_step": 50.3871296907452,
+        "mean_horizontal_speed_mps_over_active_steps": 4.414645671844482
+      }
+    },
+    "forward_1000": {
+      "task": "Isaac-Ant-DR-Eval-v0",
+      "checkpoint": "logs/rsl_rl/ant_dr_forward/2026-10-05_03-21-02_rough40_forward/model_999.pt",
+      "seed": 24,
+      "num_envs": 100,
+      "completed": 100,
+      "reward_mean": 20.85354272727156,
+      "reward_std": 5.229410525264246,
+      "steps_mean": 884.78,
+      "steps_std": 185.32790291804417,
+      "termination_counts": {
+        "time_limit_without_termination": 83,
+        "low_clearance": 17,
+        "no_ground": 0
+      },
+      "first_episodes": {
+        "clearance_mean": 0.4689452350139618,
+        "clearance_max": 1.1399489641189575,
+        "vertical_speed_abs_mean": 0.3791469931602478,
+        "vertical_speed_abs_max": 3.464986801147461,
+        "upright_mean": 0.9765436053276062
+      },
+      "env0": {
+        "steps": 960,
+        "reward": 17.814047101768665,
+        "clearance_min": 0.3578798770904541,
+        "clearance_max": 0.7628028392791748,
+        "vertical_speed_min": -1.3325921297073364,
+        "vertical_speed_max": 2.295450210571289,
+        "minimum_upright": 0.5810707211494446,
+        "end_position": [
+          -20.889591217041016,
+          -12.538774490356445,
+          0.3918471038341522
+        ],
+        "reset_times_s": [
+          16.0
+        ]
+      },
+      "movement": {
+        "mean_goal_progress_m_excluding_first_step": 12.909142168921516,
+        "mean_horizontal_speed_mps_over_active_steps": 1.0270496606826782
+      }
+    }
+  },
+  "notes": [
+    "Kinematic averages include only active first-episode steps; longer episodes receive more sample weight.",
+    "Goal progress uses the first post-step position, so it excludes the first control step.",
+    "low_clearance means torso clearance below 0.31m. Missing ground is counted separately.",
+    "The new model moves much more slowly but has fewer low-clearance terminations. These results do not identify which of the two new penalties caused the tradeoff.",
+    "Single training seed and single evaluation seed. No training settings were changed during this diagnosis."
+  ]
+}

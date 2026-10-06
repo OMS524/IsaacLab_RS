@@ -1,0 +1,29 @@
+{
+  "evaluated_at": "2026-10-05T19:25:13.941977+09:00",
+  "model": "original",
+  "checkpoint": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant/2026-10-05_17-10-50_baseline_ft_rough_blocks_original/model_1998.pt",
+  "checkpoint_sha256": "0bd09652647d9a48bbeaab7cc14ef997c90f6b478cf0033439a5bc6bb21cf94f",
+  "task": "Isaac-Ant-DR-Eval-Blocks-v0",
+  "seed": 24,
+  "num_envs": 100,
+  "completed_first_episodes": 100,
+  "reward_basis": "original Isaac-Ant-v0, 7 terms",
+  "terrain": "rectangular blocks only; training geometry settings, new layouts",
+  "block_height_range_m": [
+    -0.02,
+    0.02
+  ],
+  "block_side_lengths_m": [
+    0.4,
+    1.2
+  ],
+  "placements_per_tile": 300,
+  "pushes": false,
+  "friction_randomized": true,
+  "reward_mean": 49.665639,
+  "reward_std": 26.486469,
+  "steps_mean": 764.97,
+  "steps_std": 294.96225,
+  "log": "/home/oms/robotics_simulation/IsaacLab_RS/logs/rsl_rl/ant/2026-10-05_17-10-50_baseline_ft_rough_blocks_original/analysis/blocks_eval_seed24_100.log",
+  "note": "100/100 means episodes completed, not 100 successful walks. Single evaluation seed."
+}

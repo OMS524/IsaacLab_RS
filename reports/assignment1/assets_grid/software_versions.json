@@ -1,0 +1,17 @@
+{
+  "python": "3.11.16",
+  "IsaacLab_repository_VERSION": "2.3.0",
+  "torch": "2.7.0+cu128",
+  "torchvision": "0.22.0+cu128",
+  "isaacsim": "5.1.0.0",
+  "isaaclab": "0.47.2",
+  "isaaclab_tasks": "0.11.6",
+  "isaaclab_rl": "0.4.4",
+  "rsl-rl-lib": "3.0.1",
+  "gymnasium": "1.2.0",
+  "tensorboard": "2.21.0",
+  "numpy": "1.26.0",
+  "hydra-core": "1.3.7",
+  "warp-lang": "1.17.0",
+  "pytorch_cuda_runtime": "12.8"
+}

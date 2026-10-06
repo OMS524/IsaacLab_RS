@@ -1,0 +1,23 @@
+{
+  "model": "M4",
+  "terrain": "grid",
+  "seed": 24,
+  "num_envs": 100,
+  "completed": 100,
+  "reward_mean": 12.351667,
+  "reward_std": 10.774248,
+  "steps_mean": 619.52,
+  "steps_std": 385.785315,
+  "seconds_mean": 10.325333333333333,
+  "reward_terms": [
+    "progress",
+    "alive",
+    "upright",
+    "move_to_target",
+    "action_l2",
+    "energy",
+    "joint_pos_limits"
+  ],
+  "terrain_seed": 2403,
+  "source_log": "logs/ant_eval_grid_rough_video_20261006_045015/04_finetune_original/grid/evaluation.log"
+}

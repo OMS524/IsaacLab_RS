@@ -1,0 +1,23 @@
+{
+  "model": "M1",
+  "terrain": "rough",
+  "seed": 24,
+  "num_envs": 100,
+  "completed": 100,
+  "reward_mean": 51.601512,
+  "reward_std": 26.924326,
+  "steps_mean": 733.25,
+  "steps_std": 325.75627,
+  "seconds_mean": 12.220833333333333,
+  "reward_terms": [
+    "progress",
+    "alive",
+    "upright",
+    "move_to_target",
+    "action_l2",
+    "energy",
+    "joint_pos_limits"
+  ],
+  "terrain_seed": 2405,
+  "source_log": "logs/ant_eval_grid_rough_video_20261006_045015/01_baseline/rough/evaluation.log"
+}

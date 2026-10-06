@@ -1,0 +1,66 @@
+{
+  "report_date": "2026-10-05",
+  "versions": {
+    "python": "3.11.16",
+    "IsaacLab_repository_VERSION": "2.3.0",
+    "torch": "2.7.0+cu128",
+    "torchvision": "0.22.0+cu128",
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "0.47.2",
+    "isaaclab_tasks": "0.11.6",
+    "isaaclab_rl": "0.4.4",
+    "rsl-rl-lib": "3.0.1",
+    "gymnasium": "1.2.0",
+    "tensorboard": "2.21.0",
+    "numpy": "1.26.0",
+    "hydra-core": "1.3.7",
+    "warp-lang": "1.17.0",
+    "pytorch_cuda_runtime": "12.8"
+  },
+  "runs": {
+    "baseline": {
+      "checkpoint": "logs/rsl_rl/ant/2026-09-17_13-21-32_ant_baseline/model_999.pt",
+      "checkpoint_sha256": "d3f8502703a3afac7f45cf61a124b58ab057c98206eb9bebb7a9c77d060a40a5",
+      "agent_yaml_sha256": "c16a8a8b91e8dd6f7f3282c46231d07a77950b9138d8632ecce6cc237c697939",
+      "env_yaml_sha256": "b8e4bb05a843206e297f1b9a6ef03f95005e0c7566985bb9159f52142d4be28c"
+    },
+    "original": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-05_17-10-50_baseline_ft_rough_blocks_original/model_1998.pt",
+      "checkpoint_sha256": "0bd09652647d9a48bbeaab7cc14ef997c90f6b478cf0033439a5bc6bb21cf94f",
+      "agent_yaml_sha256": "0d29f1afb34267b34d304d56ab95333c4aa38b640eab487c57f982d6bd0472b7",
+      "env_yaml_sha256": "cdb8d87f038e64bb67e13e8f591f1fdbc682f391612d09860fe1665bc9fa6a84",
+      "video_source": "logs/rsl_rl/ant/2026-10-05_17-10-50_baseline_ft_rough_blocks_original/videos/play/rl-video-step-0.mp4",
+      "video_sha256": "d76fa81cabdf9b3ac90bd9e71befa867130dbac77fac5551867141000afb083c"
+    },
+    "light": {
+      "checkpoint": "logs/rsl_rl/ant/2026-10-05_17-31-33_baseline_ft_rough_blocks_light/model_1998.pt",
+      "checkpoint_sha256": "5368b6790ec075d7215d8d8aab9b31e87edb575e70624a7cae7138e2411e598d",
+      "agent_yaml_sha256": "76c71a2feae1d2094a23df4ab9f1ebf7ffa11284a176604bfa403c091a4bfae0",
+      "env_yaml_sha256": "ff2ffb3ef4979da1637be4fc8c1959a766c0f5ff2e40d161d20a77c9dbc70a08",
+      "video_source": "logs/rsl_rl/ant/2026-10-05_17-31-33_baseline_ft_rough_blocks_light/videos/play/rl-video-step-0.mp4",
+      "video_sha256": "0466309b628db2e5461d6e6aa179b3e4f2d4d53b46df07b5652bcb56ead4e2ab"
+    }
+  },
+  "source_files": {
+    "scripts/reinforcement_learning/rsl_rl/play_one_episode.py": "70dd6d6674ca211f335b57fea5d8dca417fe670753adedf2d002a638b2b089d0",
+    "scripts/reinforcement_learning/rsl_rl/train.py": "ba41d6afca3b6470b4bee05cb4a24f036046845c50f26970c9a944653e3f8d0a",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/ant_env_cfg.py": "586a48b8178d3493564bf32948b60645677ec0c93ece515445919bcb9ea5e7f4",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/terrain.py": "9a401defba378e162aa8aac79d7146e4e78146050a63deaf0823c255081f2345",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/mdp.py": "0cc2041d4e27d3627700452a252dea1d485d14be8a26fa52cba76ee37fea4a5d",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/__init__.py": "080bb11a5ea74dcc0f5d0c37b68d870363ce549c190829a4ad2af704b5c54310",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/agents_cfg.py": "44c75e3cfb00e0450fad368c99c0f57807367e3e89b12d94056ae399f80a33da",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/finetune_env_cfg.py": "4737635d7d30ab5ed1f22de51124514bf07d4fd9787c0cfc2a2a59deaea40c0f",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/block_eval_env_cfg.py": "585d451d78061490f1348064e5f3bf4b28435e07e8814855d7995c116086d296",
+    "source/isaaclab_tasks/isaaclab_tasks/manager_based/classic/ant_randomized/baseline_finetune_env_cfg.py": "6f6167f75260fef99e3615768be238c3da7d81022cb669ef5aa36d3b2900b488"
+  },
+  "evaluation_condition": "restored 5m grid; average ground friction; original 7 rewards; no pushes; initial contact issue unresolved",
+  "evaluations": {
+    "eval_waves_original.json": "e916274b601de963817b0494b6b1031483ce5930b2a3bc192db0b25ef61eef4e",
+    "eval_waves_baseline.json": "97147f67394db180b7b41d242a3c69d84b30e88e512f6d6a3d05dcf372fbd58e",
+    "eval_blocks_original.json": "3ebc49a09ea5c0420ba7132718742dadf0098d868a154a3ab6d92bec2122830b",
+    "eval_blocks_light.json": "c9f6df869cde114dd47d290449c4210fc43fc1511826e305111731367e3a1dfe",
+    "eval_blocks_baseline.json": "24e7dd938f9e553cf58d18f3a98f1ae416d250f68a0b98102ffe00e030778ce4",
+    "eval_waves_light.json": "a96dd2ba13a77ca5dc615ab83d8330053f8cd31dcbe22dcdcae7c07ac7f537ef"
+  },
+  "evaluate_script_sha256": "60fa00f10ae2693503d691a0623ea6e7ab4c4f63a1d712c9a13d285a92161518"
+}

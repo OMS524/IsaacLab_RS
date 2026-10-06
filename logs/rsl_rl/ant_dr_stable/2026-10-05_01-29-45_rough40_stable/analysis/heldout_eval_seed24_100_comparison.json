@@ -1,0 +1,106 @@
+{
+  "evaluation": {
+    "task": "Isaac-Ant-DR-Eval-v0",
+    "seed": 24,
+    "num_envs": 100,
+    "reward": "Original seven Ant reward terms only",
+    "pushes": false,
+    "episode_limit_s": 16,
+    "statistics": "Each environment first episode only; reward std uses population convention (ddof=0). Kinematic means are over active first-episode timesteps."
+  },
+  "training_controls": {
+    "seed": 42,
+    "num_envs": 4096,
+    "max_iterations": 1000,
+    "rough_terrain_proportion": 0.4,
+    "difference": "Only vertical_velocity (-0.5) and roll_pitch_velocity (-0.05) reward terms; run and log names also differ."
+  },
+  "original_rewards_model": {
+    "task": "Isaac-Ant-DR-Eval-v0",
+    "checkpoint": "logs/rsl_rl/ant_dr/2026-10-05_00-43-10_rough40_no_push/model_999.pt",
+    "seed": 24,
+    "num_envs": 100,
+    "completed": 100,
+    "reward_mean": 48.806905228926915,
+    "reward_std": 24.85137320304336,
+    "steps_mean": 696.63,
+    "steps_std": 280.30788982831007,
+    "termination_counts": {
+      "time_limit_without_termination": 41,
+      "low_clearance": 57,
+      "no_ground": 2
+    },
+    "first_episodes": {
+      "clearance_mean": 0.5847271680831909,
+      "clearance_max": 1.5188592672348022,
+      "vertical_speed_abs_mean": 0.7032286524772644,
+      "vertical_speed_abs_max": 5.209689140319824,
+      "upright_mean": 0.9272700548171997
+    },
+    "env0": {
+      "steps": 769,
+      "reward": 55.34767755167559,
+      "clearance_min": 0.30855292081832886,
+      "clearance_max": 1.2064067125320435,
+      "vertical_speed_min": -3.264997959136963,
+      "vertical_speed_max": 3.4894165992736816,
+      "minimum_upright": -0.9110950231552124,
+      "end_position": [
+        22.042757034301758,
+        -8.191606521606445,
+        0.2870456576347351
+      ],
+      "reset_times_s": [
+        12.816667556762695
+      ]
+    }
+  },
+  "stability_rewards_model": {
+    "task": "Isaac-Ant-DR-Eval-v0",
+    "checkpoint": "logs/rsl_rl/ant_dr_stable/2026-10-05_01-29-45_rough40_stable/model_999.pt",
+    "seed": 24,
+    "num_envs": 100,
+    "completed": 100,
+    "reward_mean": 53.494228315954096,
+    "reward_std": 29.766001828311655,
+    "steps_mean": 705.04,
+    "steps_std": 298.3844808296839,
+    "termination_counts": {
+      "time_limit_without_termination": 44,
+      "low_clearance": 55,
+      "no_ground": 1
+    },
+    "first_episodes": {
+      "clearance_mean": 0.5078651905059814,
+      "clearance_max": 1.1146183013916016,
+      "vertical_speed_abs_mean": 0.5247946977615356,
+      "vertical_speed_abs_max": 3.5442347526550293,
+      "upright_mean": 0.9575746655464172
+    },
+    "env0": {
+      "steps": 575,
+      "reward": 25.35218149749562,
+      "clearance_min": 0.30495506525039673,
+      "clearance_max": 0.9683820605278015,
+      "vertical_speed_min": -1.9853588342666626,
+      "vertical_speed_max": 2.84898042678833,
+      "minimum_upright": -0.9238812923431396,
+      "end_position": [
+        -7.821590900421143,
+        -14.45543384552002,
+        0.3058009743690491
+      ],
+      "reset_times_s": [
+        9.583333969116211
+      ]
+    }
+  },
+  "change": {
+    "reward_mean_percent": 9.603811315307675,
+    "vertical_speed_abs_mean_reduction_percent": 25.373533073085007,
+    "time_limit_count": 3
+  },
+  "interpretation": "Less vertical motion, higher mean original reward, but only small reduction in low-clearance terminations. Reward standard deviation increased. One training seed and one evaluation seed do not establish a reliable general improvement.",
+  "termination_note": "low_clearance is root clearance below 0.31m. no_ground endpoints were checked to lie outside the terrain east boundary at x=80m; these are separate from falls.",
+  "diagnostic_script": "/tmp/diagnose_ant_bounce.py"
+}
